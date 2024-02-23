@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.nav-bar{
+    height: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.me-auto{
+    gap: 50px;
+    margin-left: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-bg{
+    margin-top: 50px;
+    background-image: url("https://product-image.kurly.com/cdn-cgi/image/width=1900,height=370,quality=85/banner/main/pc/img/3ef6814b-6412-4db9-bb52-427d45198f30.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-items-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
-
-.App-link {
-  color: #61dafb;
+.main-items{
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.items-container{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+.item1{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/13d061a1-df1f-4e36-a676-03f687036cb1.jpeg");
+}
+.item2{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://product-image.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/product/image/d1d93fd8-4c68-48d3-9bad-4cd61ac0bc12.jpeg");
+}
+.item3{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://img-cf.kurly.com/cdn-cgi/image/fit=crop,width=360,height=468,quality=85/shop/data/goods/1648206848752l0.jpeg");
 }
